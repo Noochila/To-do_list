@@ -5,18 +5,19 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon --exec babel-node app.js"
- },
+  },
   "author": "",
   "license": "ISC",
   "engines": {
     "node": "16.17.1",
-    "npm":"8.15.0"
+    "npm": "8.15.0"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
     "lodash": "^4.17.21",
-    "mongoose": "^6.7.3"
+    "mongoose": "^6.7.3",
+    "nodemon": "^2.0.20"
   }
 }
