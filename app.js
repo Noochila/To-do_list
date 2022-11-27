@@ -2,7 +2,6 @@
 
 const express = require("express");
 const bodyParser = require("body-parser");
-const date = require(__dirname + "/date.js");
 const mongoose = require("mongoose")
 const _=require("lodash")
 
@@ -56,7 +55,7 @@ app.get("/", function (req, res) {
           }
         })
       }
-      const day = date.getDate();
+      
       res.render("list", { listTitle: "Today", newListItems: item });
 
     }
